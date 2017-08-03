@@ -28,7 +28,7 @@ export default class GreenLight extends Component {
         },
         body: JSON.stringify({
           user_id: this.props.UserId,
-          product_id: this.props.productInfo._id
+          product_id: this.props.productInfo.product_id
         })
       })
     .then((response) => {

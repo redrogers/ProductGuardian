@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Modal, Text, TouchableHighlight, StyleSheet, View, Image, Dimensions, ScrollView} from 'react-native';
 import { Icon } from 'react-native-elements';
-import CardView from 'react-native-cardview'
+import CardView from 'react-native-cardview';
 
 let winSize = Dimensions.get('window');
 

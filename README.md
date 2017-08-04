@@ -32,7 +32,7 @@ When you're ready to start scanning items, click the green barcode icon on the b
 - react-native 0.46.4
 - react-native-action-button ^2.7.2
 - react-native-auth0 ^1.0.3
-- react-native-camera 
+- react-native-camera
 - react-native-elements 0.15.0
 - react-native-lock ^0.6.0
 - react-native-svg ^5.3.2
@@ -42,7 +42,7 @@ When you're ready to start scanning items, click the green barcode icon on the b
 
 ## Development
 
-###Running the Android app on your phone
+###Running the Android app on your phone--cable connection to computer
 
 Within the root directory:
 
@@ -51,6 +51,13 @@ react-native run-android
 ```
 
 You'll need to add a logo within the Android build files to make react-native-lock work correctly.
+
+You will also need to add a config folder in the root directory.  This folder is already included in .gitignore. Inside the folder add a file called AuthKey.js and add the following with your authorizations from auth0 in place of xxxxx.
+
+```sh
+const AuthKey = { domain: 'xxxxxxx', clientId: 'xxxxxxxxxx', useBrowser: true};
+module.exports = AuthKey;
+```
 
 ### Installing Dependencies
 
@@ -65,6 +72,7 @@ If you run into build issues after running npm install, you might need to run np
 ### Roadmap
 
 View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
+
 
 
 ## Contributing

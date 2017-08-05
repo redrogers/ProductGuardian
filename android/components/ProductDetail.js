@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Modal, Text, TouchableHighlight, StyleSheet, View, Image, Dimensions, ScrollView} from 'react-native';
 import { Icon } from 'react-native-elements';
-import CardView from 'react-native-cardview';
+import CardView from 'react-native-cardview'
 
 let winSize = Dimensions.get('window');
 
@@ -13,7 +13,7 @@ export default class ProductDetail extends Component {
       productInfo: {},
       UserId: ''
     };
-  }
+
 
   setModalVisible(bool) {
     this.setState({modalVisible: bool});
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   button: {
-    width: "80%",
+    width: '80%',
     height: 40,
     backgroundColor: '#339966',
     borderColor: '#339966',

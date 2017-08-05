@@ -119,6 +119,7 @@ export default class GreenLight extends Component {
 }
 const styles = StyleSheet.create({
   popup: {
+<<<<<<< HEAD
     backgroundColor: 'rgba(109, 191, 109, 0.9)',
     height: "80%",
     marginTop: "25%",
@@ -126,6 +127,13 @@ const styles = StyleSheet.create({
     marginRight: "5%",
     marginLeft: "5%",
     justifyContent: 'flex-start',
+=======
+    backgroundColor: 'rgba(0,128,0, 0.8)',
+    borderColor: '#d6d7da',
+    borderWidth: 3,
+    borderRadius: 20,
+    justifyContent: 'center',
+>>>>>>> e1dc97a9f5e91bf4f25313e93d78e534c8abceee
     overflow: 'visible',
     flex: 1,
     padding: 20,
